@@ -120,3 +120,13 @@ html{scroll-padding-top:120px}.brand-logo{width:76px;height:58px;background:whit
 
 /* Support contact is reached through the app's Microsoft Store listing. */
 .support-contact-section { margin-top: 36px; padding-top: 8px; border-top: 1px solid #dfe5f0; }
+
+/* Compact Home links to the dedicated brand, app and support pages. */
+.section.home-link { padding-block: 32px; gap: 24px; }
+.home-link + .home-link { border-top: 1px solid #e1e6f0; }
+.home-link .section-kicker { margin-top: 0; }
+.home-link p:last-child { margin-bottom: 0; }
+.home-link .secondary-btn { margin-top: 0; flex-shrink: 0; }
+@media (max-width: 760px) {
+  .section.home-link { padding-block: 24px; gap: 16px; }
+}
